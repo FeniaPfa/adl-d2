@@ -1,0 +1,49 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.hero {
+    background: url("../img/bg.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.product {
+    margin: 3rem;
+}
+
+.hero-text {
+    padding: 3rem;
+    padding-top: 6rem;
+    color: #fff;
+}
+
+.product img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.301);
+}
+
+.p-text {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 6rem;
+}
+
+.p-text {
+    margin-left: 4rem;
+}
+
+footer {
+    background: linear-gradient(115deg, #0539a1 0%, #b61551 100%);
+}
+
+footer p {
+    margin: 0;
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff;
+}
